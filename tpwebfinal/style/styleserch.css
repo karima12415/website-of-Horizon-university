@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+:root
+{
+    --color1: #faf8f8;
+    --color2: #954a4a;
+    --color3:#512d2d;
+    --color4:#ffffff;
+}
+body 
+{ 
+    background-image: url(/images/searchimage.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.go
+{
+    font-size: 60px;
+}
+.go-home
+{
+    margin-left: 50px;
+    color: #954a4a;
+}
+.form
+{
+    background: var(--color4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 var(--color2), 0 32px 64px -48px var(--color3);
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 700px;
+    
+}
+label
+{
+    padding: 14px 26px;
+    font-size: 18px;
+    margin-left: -20px;
+}
+input{
+  width: 300px;
+  margin-bottom: 10px;
+  height: 32px;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.message
+{
+    text-align: center;
+    background: var(--color4);
+    padding:15px 0px;
+    border:1px solid #b69292;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color:red;
+}
+h2
+{
+    margin-left: 600px;
+    font-size: 50px;
+    color: #954a4a;
+}
+.btn
+{
+  background-color: #954a4a;
+  color: #ccc;
+}
